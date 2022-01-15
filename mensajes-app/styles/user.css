@@ -1,0 +1,26 @@
+.user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-img {
+  border-start-start-radius: 50%;
+  border-start-end-radius: 50%;
+  border-end-start-radius: 50%;
+  border-end-end-radius: 50%;
+}
+
+.user-data span {
+  display: block;
+}
+
+.user-data .user-status {
+  font: var(--caption-12regular);
+  color: var(--grey-10);
+}
+
+.user-data .user-name {
+  font: var(--body-16regular);
+  color: var(--black);
+}
