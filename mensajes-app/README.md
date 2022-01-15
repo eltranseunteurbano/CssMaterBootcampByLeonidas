@@ -2,4 +2,4 @@
 
 Pequeño proyecto de maquetación responsive de una versión escritorio de whats app.
 
-![Presentación - message](https://user-images.githubusercontent.com/26154403/149628807-b245946b-a6f3-4da2-911a-b9d8e0b530db.jpg)
+![Slide 16_9 - 1](https://user-images.githubusercontent.com/26154403/149629129-01e32ee7-4347-46ab-a444-151b7f5c869f.jpg)
