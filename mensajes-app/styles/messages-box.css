@@ -1,0 +1,7 @@
+@import './message-list.css';
+
+.messages-box {
+  display: flex;
+  flex-direction: column;
+  block-size: 100vh;
+}

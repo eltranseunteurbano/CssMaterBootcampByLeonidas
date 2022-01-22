@@ -15,9 +15,14 @@
   display: block;
 }
 
+.user-data {
+  margin: 0;
+}
+
 .user-data .user-status {
   font: var(--caption-12regular);
   color: var(--grey-10);
+  text-transform: uppercase;
 }
 
 .user-data .user-name {

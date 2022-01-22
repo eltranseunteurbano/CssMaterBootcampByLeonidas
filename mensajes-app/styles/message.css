@@ -4,10 +4,16 @@
   display: flex;
   flex-direction: column;
   gap: .25rem;
+  max-width: 410px;
 }
 
 .message-text {
   margin: 0;
+  font: var(--body-14regular);
+}
+
+.message-text > a {
+  color: #316AFB;
 }
 
 .message.is-receiver {

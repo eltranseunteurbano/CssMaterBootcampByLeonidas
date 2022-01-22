@@ -14,7 +14,7 @@
   
   <section class="app">
     <aside class="chats"></aside>
-    <main class="messages">
+    <main class="messages-box">
       <header class="header">
         <div class="user">
           <img
@@ -27,34 +27,109 @@
           />
           <p class="user-data">
             <span class="user-name">Pilar</span>
-            <span class="user-status">Status</span>
+            <span class="user-status">En línea</span>
           </p>
+        </div>
+        <div class="header-actions">
+          <button class="button-icon ripple" type="button">
+            <img src="./images/icons/search.svg" alt="Search" width="16" height="16" /> 
+          </button>
+
+          <button class="button-icon ripple" type="button">
+            <img src="./images/icons/settings.svg" alt="Edit" width="16" height="16" /> 
+          </button>
         </div>
       </header>
       <section class="message-list">
-        <div class="date">Jueves</div>
+
         <div class="message is-receiver">
           <div class="message-body">
-            <p class="message-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam nostrum facilis est sint nemo dignissimos vitae similique tempora, obcaecati, rem iusto iste inventore, suscipit pariatur eligendi. Cupiditate, aliquam! Error, architecto?</p>
+            <p class="message-text">
+              Ok gracias perdón por la tardanza pero yá quedó
+            </p>
           </div>
           <div class="message-details">
-            <span class="message-date">09:28 am</span>
+            <span class="message-date">11:29 am</span>
           </div>
         </div>
 
         <div class="message is-sender">
           <div class="message-body">
-            <p class="message-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam nostrum facilis est sint nemo dignissimos vitae similique tempora, obcaecati, rem iusto iste inventore, suscipit pariatur eligendi. Cupiditate, aliquam! Error, architecto?</p>
+            <p class="message-text">
+              Claro. Sin problemas
+            </p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">11:28 am</span>
+            <span class="message-status is-dobleCheck"></span>
+          </div>
+        </div>
+
+        <div class="message is-receiver">
+          <div class="message-body">
+            <p class="message-text">
+              Buenos días disculpe yá está tu cuenta abierta pero para mañana de 9 A 12 podrás recibir al técnico
+            </p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">11:27 am</span>
+          </div>
+        </div>
+
+        <div class="date">Viernes</div>
+
+        <div class="message is-sender">
+          <div class="message-body">
+            <p class="message-text">
+              <a
+                href="https://goo.gl/maps/jyHRCknk3xcGRtqLA"
+                target="_blank"
+              >https://www.google.com/maps?q=31.9996555,-116.5759683&hl=es-MX&gl=mx&entry=gps&lucs=swa&shorturl=1</a>
+            </p>
           </div>
           <div class="message-details">
             <span class="message-date">09:28 am</span>
             <span class="message-status is-dobleCheck"></span>
           </div>
         </div>
+
+        <div class="message is-sender">
+          <div class="message-body">
+            <p class="message-text">Claro</p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">09:28 am</span>
+            <span class="message-status is-dobleCheck"></span>
+          </div>
+        </div>
+
+        <div class="message is-receiver">
+          <div class="message-body">
+            <p class="message-text">Me puedes mandar la ubicación de su casa</p>
+          </div>
+          <div class="message-details">
+            <span class="message-date">09:27 am</span>
+          </div>
+        </div>
         
-        <div class="date">Viernes</div>
+        <div class="date">Jueves</div>
       </section>
-      <footer class="actions"></footer>
+      <footer class="actions">
+        <button class="button-icon ripple" type="button">
+          <img src="./images/icons/smile.svg" alt="Emojis" width="16" height="16" /> 
+        </button>
+        <button class="button-icon ripple" type="button">
+          <img src="./images/icons/paperclip.svg" alt="Attachment" width="16" height="16" /> 
+        </button>
+        <input
+          type="text"
+          placeholder="Escribe un mensaje"
+          class="input inputMessage"
+        />
+        <button class="button-icon ripple" type="button">
+          <img src="./images/icons/mic.svg" alt="Mic" width="16" height="16" /> 
+        </button>
+      </footer>
     </main>
   </section>
 </body>
