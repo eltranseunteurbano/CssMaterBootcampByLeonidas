@@ -3,5 +3,7 @@
 .messages-box {
   display: flex;
   flex-direction: column;
-  block-size: 100vh;
+  inline-size: 100%;
+  block-size: 100%;
+  max-inline-size: 980px;
 }
