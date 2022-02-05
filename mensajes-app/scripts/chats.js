@@ -8,38 +8,101 @@ const usersChat = [
     id: 0,
     name: 'Ingrid',
     img: './images/profiles/ingrid.jpg',
+    messages: [
+      {
+        text: '',
+        selfOrigin: true,
+        date: new Date(), 
+      }
+    ],
   }, {
     id: 1,
     name: 'Josefa',
     img: './images/profiles/josefa.jpg',
+    messages: [
+      {
+        text: '',
+        selfOrigin: true,
+        date: new Date(), 
+      }
+    ],
   }, {
     id: 2,
     name: 'Jan',
     img: './images/profiles/jan.jpg',
+    messages: [
+      {
+        text: '',
+        selfOrigin: true,
+        date: new Date(), 
+      }
+    ],
   }, {
     id: 3,
     name: 'Ruben',
     img: './images/profiles/ruben.jpg',
+    messages: [
+      {
+        text: '',
+        selfOrigin: true,
+        date: new Date(), 
+      }
+    ],
   }, {
     id: 4,
     name: 'Dionisio',
     img: './images/profiles/dionisio.jpg',
+    messages: [
+      {
+        text: '',
+        selfOrigin: true,
+        date: new Date(), 
+      }
+    ],
   }, {
     id: 5,
     name: 'Rufino',
     img: './images/profiles/rufino.jpg',
+    messages: [
+      {
+        text: '',
+        selfOrigin: true,
+        date: new Date(), 
+      }
+    ],
   }, {
     id: 6,
     name: 'Mariana',
     img: './images/profiles/mariana.jpg',
+    messages: [
+      {
+        text: '',
+        selfOrigin: true,
+        date: new Date(), 
+      }
+    ],
   }, {
     id: 7,
     name: 'Pilar',
     img: './images/profiles/pilar.jpg',
+    messages: [
+      {
+        text: '',
+        selfOrigin: true,
+        date: new Date(), 
+      }
+    ],
   }, {
     id: 8,
     name: 'Juan',
     img: './images/profiles/juan.jpg',
+    messages: [
+      {
+        text: '',
+        selfOrigin: true,
+        date: new Date(), 
+      }
+    ],
   }
 ];
 
