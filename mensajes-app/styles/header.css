@@ -6,8 +6,9 @@
   box-sizing: border-box;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  column-gap: 0.5rem;
 }
 
 .header-actions {
@@ -15,4 +16,14 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+}
+
+.goBack-btn {
+  display: block;
+}
+
+@media screen and (min-width: 950px) {
+  .goBack-btn {
+    display: none;
+  }
 }

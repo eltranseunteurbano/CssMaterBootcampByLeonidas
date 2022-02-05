@@ -12,6 +12,7 @@
   background-size: initial;
 
   overflow: auto;
+  transition: all .4s;
 }
 
 .message-list::-webkit-scrollbar {

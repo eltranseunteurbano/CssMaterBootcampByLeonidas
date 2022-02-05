@@ -8,10 +8,15 @@
   cursor: pointer;
   transition: all .4s;
   border-block-end: solid 1px var(--grey-30);
+  inline-size: 100%;
 }
 
 .chat:hover {
   background-color: var(--grey-30);
+}
+
+.chat-box {
+  flex: 1;
 }
 
 .chat-img {
@@ -27,12 +32,13 @@
 
 .chat-header {
   margin-bottom: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .chat-header span:first-child {
   font: var(--body-16regular);
   color: var(--black);
-  flex: 1;
 }
 
 .chat-header span:last-child {
@@ -42,12 +48,15 @@
 
 .chat-message {
   column-gap: 0.25rem;
+  display: flex;
+  inline-size: 100%;
+  overflow: hidden;
 }
 
 .chat-message span:last-child {
   font: var(--caption-12regular);
   color: var(--grey-10);
-  width: 300px;
+  flex: 1;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

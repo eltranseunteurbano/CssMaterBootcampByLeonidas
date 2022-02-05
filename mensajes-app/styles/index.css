@@ -63,4 +63,18 @@ body {
   body {
     padding: 1.5rem;
   }
+  .app {
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+}
+
+.show-chats {
+  display: block;
+  inline-size: 100%;
+  max-inline-size: none;
+}
+
+.hide-wrapper {
+  display: none;
 }
